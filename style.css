@@ -1,0 +1,29 @@
+*,
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+.parent {
+  font-size: 10px;
+}
+h2 {
+  margin: 1rem;
+}
+.px-size {
+  font-size: 20px;
+}
+.rem-size {
+  font-size: 2rem;
+}
+.em-size {
+  font-size: 5em;
+}
+
+/* adding in border box makes sure that any childs under the parent stay within the box and doesnt go ouside it */
+/* Normally, 100% is 16px, but we want the size to be 10px so we do 62.5% instead*/
+/* alwasy start with padding 0, margin 0, box sizing border box, and font size 62.5*/
+/* 1 rem is equal to the default font sixe (10px) --> rems allow the font size to be relative*/
+/* 1 em is equal to the font size of the parent --> can be really powerful and a good tool but rem is easier*/
