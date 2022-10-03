@@ -5,21 +5,26 @@ html {
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  font-family: "Oxygen", sans-serif;
+  font-family: "Bitter", serif;
+  background-color: #fcf3f2;
 }
-.header,
-.bodyy {
-  font-size: 30px;
+.body {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .header {
-  font-size: 15rem;
+  text-align: center;
+  font-size: 12rem;
+  color: #0c3652;
 }
 .div {
   font-size: 10rem;
+  color: #006aab;
 }
 
+/* colors: #153449 and #006aab */
 /* adding in border box makes sure that any childs under the parent stay within the box and doesnt go ouside it */
 /* Normally, 100% is 16px, but we want the size to be 10px so we do 62.5% instead*/
 /* alwasy start with padding 0, margin 0, box sizing border box, and font size 62.5*/
