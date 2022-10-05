@@ -41,4 +41,4 @@ html {
 /* 1 em is equal to the font size of the parent --> can be really powerful and a good tool but rem is easier*/
 /* use flex grow to just use up and aditional space */
 /* use percentages for width */
-/* use 
+/* use flex-wrap: wrap; to align a bunch of elements that are in 1 in-line element into even spaces onto the page*/
