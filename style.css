@@ -9,20 +9,20 @@ html {
   font-family: "Bitter", serif;
   background-color: #fcf3f2;
 }
-.body {
+.all-boxes {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
-.header {
+.main-header {
   text-align: center;
   margin: 5rem auto;
-  font-size: 12rem;
+  font-size: 10rem;
   color: rgb(0, 71, 115);
 }
-.div {
-  font-size: 10rem;
+.box {
+  font-size: 8rem;
   color: #0076bf;
   border: solid 10px #153449;
   border-radius: 20px;
