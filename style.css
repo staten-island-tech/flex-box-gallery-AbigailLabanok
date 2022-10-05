@@ -17,6 +17,7 @@ html {
 }
 .header {
   text-align: center;
+  margin: 5rem auto;
   font-size: 12rem;
   color: rgb(0, 71, 115);
 }
