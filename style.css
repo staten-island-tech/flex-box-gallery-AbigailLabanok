@@ -5,13 +5,14 @@ html {
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  font-family: "Oxygen", sans-serif;
   font-family: "Bitter", serif;
+}
+body {
   background-color: #fff3f6;
 }
 .all-boxes {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -32,11 +33,13 @@ html {
   padding: 15px;
   text-align: center;
   box-shadow: 1rem 1rem 1rem #2b6790;
+  background-color: #f1faff;
 }
 .images {
   width: 25vw;
   border: solid 7px #091825;
   border-radius: 15px;
+  margin-top: 1rem;
 }
 
 /* colors: #153449 and #006aab */
