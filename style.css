@@ -21,6 +21,7 @@ body {
   margin: 5rem auto;
   font-size: 9rem;
   color: rgb(0, 71, 115);
+  text-decoration: underline #153449;
 }
 .box {
   font-size: 8rem;
