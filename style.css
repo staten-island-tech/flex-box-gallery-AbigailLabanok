@@ -30,7 +30,7 @@ body {
   border-radius: 20px;
   width: 30%;
   height: 45vh;
-  margin: 50px auto;
+  margin: 5rem auto;
   padding: 15px;
   text-align: center;
   box-shadow: 1rem 1rem 1rem #2b6790;
@@ -52,3 +52,6 @@ body {
 /* use flex grow to just use up and aditional space */
 /* use percentages for width */
 /* use flex-wrap: wrap; to align a bunch of elements that are in 1 in-line element into even spaces onto the page*/
+/* using hover pseudo class adds an animation when you hover over an element */
+/* use transitions to help transformations and animations to play out in certain ways over certain times */
+/* the only way that the children elements will gain absolute positioning is if the parent has relative positioning */
