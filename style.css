@@ -37,10 +37,10 @@ body {
   background-color: #f1faff;
 }
 .images {
-  width: 24vw;
+  width: 90%;
   border: solid 7px #091825;
   border-radius: 15px;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   opacity: 75%;
   transition: 0.3s;
 }
@@ -48,7 +48,7 @@ body {
   transform: scale(1.05);
   opacity: 100%;
 }
- /* body {
+/* body {
 	background: linear-gradient(-45deg, #ffd1c3, #ffc0d8, #baedff, #b9ffef);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
@@ -66,7 +66,6 @@ body {
 		background-position: 0% 50%;
 	}
 } */
-
 
 /* colors: #153449 and #006aab */
 /* adding in border box makes sure that any childs under the parent stay within the box and doesnt go ouside it */
