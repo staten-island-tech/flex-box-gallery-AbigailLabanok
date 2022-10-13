@@ -18,10 +18,11 @@ body {
 }
 .main-header {
   text-align: center;
-  margin: 5rem auto;
+  margin: 5rem 50rem;
   font-size: 9rem;
   color: rgb(0, 71, 115);
   text-decoration: underline #153449;
+  border-radius: 5rem;
 }
 .box {
   font-size: 8rem;
@@ -39,7 +40,7 @@ body {
 .images {
   width: 90%;
   border: solid 7px #091825;
-  border-radius: 15px;
+  border-radius: 1.5rem;
   margin-top: 1.5rem;
   opacity: 75%;
   transition: 0.3s;
@@ -57,25 +58,13 @@ body {
 .box:active {
   border-radius: 7rem;
 }
-/* .box {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  -webkit-transition-property: border-radius;
-  transition-property: border-radius;
-}
-.box:hover, .box:focus, .box:active {
-  border-radius: 7rem;
-} */
 .main-header {
   transition-duration: 0.3s;
   transition-property: box-shadow;
 }
-.main-header:hover, .main-header:focus, .main-header:active {
+.main-header:hover,
+.main-header:focus,
+.main-header:active {
   box-shadow: 0 0 1rem #153449;
 }
 @keyframes text-wobble {
@@ -98,7 +87,9 @@ body {
     transform: translateX(0);
   }
 }
-.text:hover, .text:focus, .text:active {
+.text:hover,
+.text:focus,
+.text:active {
   animation-name: text-wobble;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
@@ -119,6 +110,24 @@ body {
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+@media all and (max-width: 100rem) {
+  .box {
+    width: 45%;
+    text-align: center;
+  }
+  .main-header {
+    text-align: center;
+  }
+}
+@media all and (max-width: 50rem) {
+  .box {
+    width: 90%;
+    text-align: center;
+  }
+  .main-header {
+    text-align: center;
   }
 }
 
